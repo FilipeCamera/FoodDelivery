@@ -15,7 +15,11 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 100px;
+  width: 130px;
+
+  @media(max-width: 768px){
+    width: 100px;
+  }
 `;
 
 export const Navbar = styled.div<NavbarProps>`
@@ -24,18 +28,33 @@ export const Navbar = styled.div<NavbarProps>`
   justify-content: space-around;
   align-items: center;
   position: relative;
-
   @media(max-width: 768px){
     overflow: hidden;
     flex-direction: column;
     width: 100%;
     max-height: ${({isOpen}) => isOpen ? '300': '0'};
-    transition: max-height 0.3s ease-in;
+    transition: max-height 2s ease-in;
   }
 `;
 
 export const Link = styled.a`
+  margin: 2rem;
   text-decoration: none;
+  color: #252B42;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #FA4A0C;
+  }
+
+  @media(max-width: 768px){
+    margin: 1.2rem;
+  }
 `;
 
 export const Hamburguer = styled.div`
