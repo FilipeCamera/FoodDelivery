@@ -114,8 +114,33 @@ export const ImageMobile = styled.img`
   margin-top: -10rem;
   margin-left: -10rem;
   @media(max-width: 768px) {
-    width: 80vw;
+    width: 90vw;
     margin-top: -4rem;
     margin-left: -4rem;
+  }
+`;
+
+
+export const Subtitle = styled.h3`
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #333333;
+  margin: 6rem 0;
+
+  @media(max-width: 768px) {
+    font-size: 24px;
+    margin-top: -10rem;
+  }
+`;
+
+export const LineGray = styled.div`
+  height: 2px;
+  width: 60vw;
+  background: #e4e4e4;
+
+  @media(max-width: 768px) {
+    width: 100vw;
+    margin: 5rem;
   }
 `;

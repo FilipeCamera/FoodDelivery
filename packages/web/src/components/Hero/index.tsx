@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BoxButton, ButtonApp, ButtonPlay, Container, FoodTitle, ImageMobile, TitleApresentation, TitleDescription } from './styles';
+import { BoxButton, ButtonApp, ButtonPlay, Container, FoodTitle, ImageMobile, LineGray, Subtitle, TitleApresentation, TitleDescription } from './styles';
 
 import MobileFood from '../../assets/MobileFood.png';
 
@@ -19,6 +19,8 @@ function Hero() {
         <ButtonApp>App store</ButtonApp>
       </BoxButton>
       <ImageMobile src={MobileFood}/>
+      <LineGray />
+      <Subtitle>How the app works</Subtitle>
     </Container>
   )
 }
