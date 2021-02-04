@@ -43,7 +43,7 @@ export const Link = styled.a`
   color: #252B42;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 0.2px;
   cursor: pointer;
   transition: color 0.2s;

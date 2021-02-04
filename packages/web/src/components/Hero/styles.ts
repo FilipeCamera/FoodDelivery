@@ -21,8 +21,8 @@ export const Container = styled.div`
 
 export const FoodTitle = styled.h4`
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 1.5rem;
+  font-weight: 700;
   letter-spacing: 0.1px;
   color: #fff;
 
@@ -34,7 +34,7 @@ export const FoodTitle = styled.h4`
 
 export const TitleApresentation = styled.h1`
   font-family: 'Poppins', sans-serif;
-  font-size: 58px;
+  font-size: 3.6rem;
   font-weight: 800;
   color: #fff;
   text-align: center;
@@ -43,8 +43,7 @@ export const TitleApresentation = styled.h1`
 
   @media(max-width: 768px){
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
-    font-weight: 800;
+    font-size: 2rem;
     color: #252B42;
     width: 100vw;
   }
@@ -53,7 +52,7 @@ export const TitleApresentation = styled.h1`
 export const TitleDescription = styled.h3`
   margin: 0 0 2rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #fff;
 
@@ -79,8 +78,8 @@ export const ButtonPlay = styled.a`
   padding: 1.2rem 3.6rem;
   border-radius: 30px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 1.1rem;
+  font-weight: 700;
   color: #fff;
   letter-spacing: 0.1px;
   cursor: pointer;
@@ -97,8 +96,8 @@ export const ButtonApp = styled.a`
   border: 1px solid #fff;
   border-radius: 30px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 1.1rem;
+  font-weight: 700;
   color: #fff;
   letter-spacing: 0.1px;
   cursor: pointer;
@@ -123,13 +122,14 @@ export const ImageMobile = styled.img`
 
 export const Subtitle = styled.h3`
   font-family: 'Poppins', sans-serif;
-  font-size: 44px;
+  font-size: 2.75rem;
   font-weight: 600;
   color: #333333;
+  letter-spacing: 0.1px;
   margin: 6rem 0;
 
   @media(max-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-top: -10rem;
   }
 `;
