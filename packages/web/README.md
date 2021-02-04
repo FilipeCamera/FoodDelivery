@@ -1,6 +1,6 @@
 # Food Delivery UI
 
-[x] Web
+- [x] Web
 
 ### Frameworks
 
