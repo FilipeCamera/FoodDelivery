@@ -1,7 +1,7 @@
 # Food Delivery UI
 
-[] Web
-[] Mobile
+[ ] Web
+[ ] Mobile
 
 ### Frameworks
 
