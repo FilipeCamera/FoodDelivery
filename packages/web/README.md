@@ -1,10 +1,9 @@
 # Food Delivery UI
 
-[ ] Web
-[ ] Mobile
+[x] Web
 
 ### Frameworks
 
 - ReactJS
-- Expo
+
 
