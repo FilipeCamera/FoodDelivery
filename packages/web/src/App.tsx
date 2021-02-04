@@ -1,4 +1,6 @@
 import React from 'react';
+import BoxDois from './components/BoxDois';
+import BoxTres from './components/BoxTres';
 import BoxUm from './components/BoxUm';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <Hero />
       <BoxUm />
+      <BoxDois />
+      <BoxTres />
     </>
   );
 }

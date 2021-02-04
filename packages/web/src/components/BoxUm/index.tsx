@@ -2,7 +2,9 @@ import React from 'react';
 
 import MobileRegisterImage from '../../assets/MobileZero.png';
 
-import { BoxTitle, Container, MobileImage, Title, TitleApre, TitleDesc } from './styles';
+import {Container } from './styles';
+
+import {BoxTitle, Title, TitleApre, TitleDesc, MobileImage} from '../../styles/globalStyles';
 
 function BoxUm() {
   return(
