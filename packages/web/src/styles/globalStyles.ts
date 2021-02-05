@@ -2,6 +2,7 @@ import {createGlobalStyle} from 'styled-components';
 
 import styled from 'styled-components';
 
+
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -36,6 +37,22 @@ export const Title = styled.h4`
 
   @media(max-width: 768px) {
     text-align: center;
+    display: none;
+  }
+`;
+
+export const TitleMobile = styled.h4`
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+  margin: 0.5rem 0;
+  display: none;
+
+  @media(max-width: 768px) {
+    text-align: center;
+    display: block;
   }
 `;
 

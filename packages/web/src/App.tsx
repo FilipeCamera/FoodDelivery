@@ -4,6 +4,7 @@ import BoxTres from './components/BoxTres';
 import BoxUm from './components/BoxUm';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Steps from './components/Steps';
 import { GlobalStyle } from './styles/globalStyles';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BoxUm />
       <BoxDois />
       <BoxTres />
+      <Steps />
     </>
   );
 }
