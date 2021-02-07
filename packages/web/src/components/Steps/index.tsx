@@ -19,10 +19,10 @@ function Steps() {
       <TitleDownDesc>Available on your favorite store. Start your premium experience now</TitleDownDesc>
       <TitleDownDescMob>Most calendars are designed for teams.</TitleDownDescMob>
       <BoxButton>
-        <ButtonPlay>PlayStore</ButtonPlay>
-        <ButtonBuy>Buy now</ButtonBuy>
-        <ButtonApp>AppStore</ButtonApp>
-        <ButtonFree>Try for free</ButtonFree>
+        <ButtonPlay href="#">PlayStore</ButtonPlay>
+        <ButtonBuy href="#">Buy now</ButtonBuy>
+        <ButtonApp href="#">AppStore</ButtonApp>
+        <ButtonFree href="#">Try for free</ButtonFree>
       </BoxButton>
     </Container>
   )

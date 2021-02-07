@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 6rem 0;
   width: 100vw;
   background-image: url(${Background});
 
@@ -64,13 +64,42 @@ export const BoxButton = styled.div`
 `;
 
 export const ButtonApp = styled.a`
+  margin: 0 1rem;
+  color: #fff;
+  padding: 1.2rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  @media(max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ButtonFree = styled.a`
+  margin: 0 1rem;
+  color: #fff;
+  padding: 1.2rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
   display: none;
+
+  text-decoration: none;
+
+  @media(max-width: 768px) {
+    display: block;
+  }
 `;
 
 export const ButtonPlay = styled.a`
+  margin: 0 1rem;
   background: #FA4A0C;
   color: #fff;
   padding: 1.2rem;
@@ -78,6 +107,8 @@ export const ButtonPlay = styled.a`
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 700;
+
+  text-decoration: none;
 
   @media(max-width: 768px) {
     display: none;
@@ -85,6 +116,7 @@ export const ButtonPlay = styled.a`
 `;
 
 export const ButtonBuy = styled.a`
+  margin: 0 1rem;
   display: none;
   background: #FA4A0C;
   color: #fff;
@@ -93,6 +125,8 @@ export const ButtonBuy = styled.a`
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 700;
+
+  text-decoration: none;
 
   @media(max-width: 768px) {
     display: block;
